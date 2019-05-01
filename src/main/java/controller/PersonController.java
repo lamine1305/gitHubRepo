@@ -20,7 +20,7 @@ public class PersonController {
 
 	@RequestMapping("/all")
 	public ArrayList<Person> getAll() {
-		System.out.println("test git ");
+		System.out.println("mon deuxième commit test git ");
 		return ps.getAll();
 	}
 
