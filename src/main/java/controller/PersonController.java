@@ -20,6 +20,7 @@ public class PersonController {
 
 	@RequestMapping("/all")
 	public ArrayList<Person> getAll() {
+		System.out.println("test git ");
 		return ps.getAll();
 	}
 
